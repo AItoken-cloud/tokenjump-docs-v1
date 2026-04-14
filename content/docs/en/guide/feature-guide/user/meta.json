@@ -1,0 +1,15 @@
+{
+  "title": "User Guide",
+  "defaultOpen": false,
+  "pages": [
+    "auth",
+    "personal-setting",
+    "token",
+    "api",
+    "pricing",
+    "log",
+    "topup",
+    "subscription",
+    "task"
+  ]
+}

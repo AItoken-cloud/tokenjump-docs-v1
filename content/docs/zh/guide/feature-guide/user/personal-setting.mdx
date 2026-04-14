@@ -1,0 +1,71 @@
+﻿---
+title: 个人设置
+description: 管理账号基本信息、安全设置和第三方账号绑定
+---
+
+import { Callout } from 'fumadocs-ui/components/callout';
+
+管理账号基本信息、安全设置和第三方账号绑定。登录后点击右上角头像，在下拉菜单中选择「个人设置」，或直接访问 `/console/personal`。
+
+## 基本信息
+
+![个人信息页](/assets/guide/feature-guide/personal.png)
+
+### 修改用户名
+
+在用户名输入框中输入新用户名，点击「保存」
+
+### 绑定邮箱
+
+填写邮箱地址，点击「发送验证码」，输入验证码后点击「绑定」
+
+### 更改密码
+
+依次填写当前密码、新密码、确认新密码，点击「修改密码」
+
+## 双因素认证（2FA）
+
+开启 2FA 后，每次登录时除密码外还需输入验证器 App 中的动态码，有效防止账号被盗。
+
+![2FA 设置区域](/assets/guide/feature-guide/2fa-section.png)
+
+### 开启 2FA
+
+1. 在手机上安装验证器 App（推荐 Google Authenticator 或 Microsoft Authenticator）
+2. 在个人设置页找到「双因素认证」区域，点击「开启 2FA」
+3. 用验证器 App 扫描页面上显示的二维码，App 中会出现一个 6 位动态码
+
+![2FA 二维码弹窗](/assets/guide/feature-guide/2fa-qrcode.png)
+
+4. 将 App 中显示的 6 位动态码填入验证框，点击「确认开启」
+5. 系统显示一组备用码，请立即截图或抄写保存，用于无法使用验证器时的紧急登录
+
+<Callout type="warn">
+  备用码只显示一次，关闭弹窗后无法再次查看。丢失备用码且无法使用验证器时，需联系管理员重置。
+</Callout>
+
+## Passkey 无密码登录
+
+Passkey 支持使用设备指纹、面容识别或硬件安全密钥登录，无需输入密码。
+
+![Passkey 设置区域](/assets/guide/feature-guide/passkey-section.png)
+
+### 注册 Passkey
+
+1. 在个人设置页向下滚动，找到「Passkey」区域
+2. 点击「注册 Passkey」按钮
+3. 浏览器弹出系统验证提示，按提示完成指纹、面容或安全密钥验证
+4. 验证通过后 Passkey 注册完成，下次登录时可直接使用
+
+## 第三方账号绑定
+
+将 GitHub、Discord 等第三方账号与当前账号绑定后，可直接用第三方账号登录，无需输入密码。
+
+![第三方账号绑定区域](/assets/guide/feature-guide/oauth-bind-section.png)
+
+### 绑定第三方账号
+
+1. 在个人设置页向下滚动，找到「第三方账号绑定」区域
+2. 点击要绑定的平台对应的「绑定」按钮
+3. 页面跳转至该平台的授权页面，登录并点击「授权」
+4. 授权完成后自动跳回，绑定状态变为「已绑定」
