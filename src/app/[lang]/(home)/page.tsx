@@ -152,22 +152,13 @@ export default async function Page({
               {content.getStarted}
             </Link>
             <a
-              href="https://github.com/QuantumNous/new-api"
+              href="https://github.com/AItoken-cloud/tokenjump-docs-v1"
               target="_blank"
               rel="noreferrer noopener"
               className="bg-fd-secondary text-fd-secondary-foreground hover:bg-fd-accent inline-flex items-center justify-center gap-2 rounded-full border px-5 py-3 font-medium tracking-tight transition-colors max-sm:text-sm"
             >
               <Github className="size-4" />
               {content.github}
-            </a>
-            <a
-              href="https://atomgit.com/QuantumNous/new-api"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="bg-fd-secondary text-fd-secondary-foreground hover:bg-fd-accent inline-flex items-center justify-center gap-2 rounded-full border px-5 py-3 font-medium tracking-tight transition-colors max-sm:text-sm"
-            >
-              <AtomGitIcon />
-              {content.atomgit}
             </a>
           </div>
         </div>
@@ -248,7 +239,7 @@ export default async function Page({
         </h2>
         <div className="mt-8 flex justify-center">
           <a
-            href="https://github.com/QuantumNous/new-api/graphs/contributors"
+            href="https://github.com/AItoken-cloud/tokenjump-docs-v1/graphs/contributors"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -270,7 +261,7 @@ export default async function Page({
         </h2>
         <div className="mt-8 flex justify-center">
           <a
-            href="https://github.com/QuantumNous/new-api-docs-v1/graphs/contributors"
+            href="https://github.com/AItoken-cloud/tokenjump-docs-v1-docs-v1/graphs/contributors"
             target="_blank"
             rel="noopener noreferrer"
           >

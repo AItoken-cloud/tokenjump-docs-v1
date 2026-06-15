@@ -152,6 +152,7 @@ export function Hero() {
       {/* Lightweight fallback while shader bundle loads */}
       <div
         className="absolute inset-0"
+        // background: 'transparent'
         style={{
           background:
             resolvedTheme === 'dark'
@@ -186,7 +187,7 @@ export function Hero() {
           )}
         >
           <Image
-            src="/assets/newapi.svg"
+            src="/assets/logo.png"
             alt="logo"
             width={288}
             height={288}

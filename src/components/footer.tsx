@@ -36,37 +36,13 @@ const ProductHuntIcon = (
 const socialLinks: { name: string; href: string; icon: React.ReactNode }[] = [
   {
     name: 'GitHub',
-    href: 'https://github.com/QuantumNous/new-api',
+    href: 'https://github.com/AItoken-cloud/tokenjump-docs-v1',
     icon: <Github className="size-4" />,
-  },
-  {
-    name: 'AtomGit',
-    href: 'https://atomgit.com/QuantumNous/new-api',
-    icon: AtomGitIcon,
-  },
-  {
-    name: 'Docker',
-    href: 'https://hub.docker.com/r/calciumion/new-api',
-    icon: DockerIcon,
-  },
-  {
-    name: 'QQ',
-    href: 'docs/support/community-interaction',
-    icon: <MessageCircle className="size-4" />,
-  },
-  {
-    name: 'Product Hunt',
-    href: 'https://www.producthunt.com/products/new-api',
-    icon: ProductHuntIcon,
   },
 ];
 
 const beianLinks: { text: string; href: string }[] = [
-  { text: '浙ICP备2025190188号-2', href: 'https://beian.miit.gov.cn/' },
-  {
-    text: '浙公网安备33010602014019号',
-    href: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602014019',
-  },
+  { text: '闽ICP备2025095075号', href: 'https://beian.miit.gov.cn/' },
 ];
 
 // External links (same labels across all languages)
@@ -145,7 +121,7 @@ const translations: Record<string, FooterTranslation> = {
       relatedProjects: '相关项目',
       friendshipLinks: '友情链接',
     },
-    copyright: '© 2025 锟腾科技. All Rights Reserved.',
+    copyright: '© 2026 隐研科技. All Rights Reserved.',
   },
   en: {
     sections: {
