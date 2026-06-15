@@ -1,4 +1,4 @@
-# new-api-docs-v1
+# tokenjump-docs-v1
 
 A Next.js documentation site for TokenJump.
 

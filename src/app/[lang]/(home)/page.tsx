@@ -266,7 +266,7 @@ export default async function Page({
             rel="noopener noreferrer"
           >
             <img
-              src="https://contrib.rocks/image?repo=QuantumNous/new-api-docs-v1"
+              src="https://contrib.rocks/image?repo=AItoken-cloud/tokenjump-docs-v1"
               alt="Documentation Contributors"
               loading="lazy"
               decoding="async"

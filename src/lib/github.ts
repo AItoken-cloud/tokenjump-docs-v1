@@ -2,8 +2,8 @@ import { App, Octokit } from 'octokit';
 import type { ActionResponse, Feedback } from '@/components/feedback';
 
 // GitHub repository info
-export const owner = 'QuantumNous';
-export const repo = 'new-api-docs-v1';
+export const owner = 'AItoken-cloud';
+export const repo = 'tokenjump-docs-v1';
 export const DocsCategory = 'Docs Feedback'; // GitHub Discussion
 
 let instance: Octokit | undefined;
