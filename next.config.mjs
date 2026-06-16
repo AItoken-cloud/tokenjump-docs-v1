@@ -7,6 +7,25 @@ const config = {
   output: 'standalone',
   reactStrictMode: true,
   poweredByHeader: false,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'http',
+        hostname: 'localhost',
+        pathname: '/**',
+      },
+      {
+        protocol: 'http',
+        hostname: '127.0.0.1',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'doc.tokenjump.cc',
+        pathname: '/**',
+      },
+    ],
+  },
   experimental: {
     serverActions: {
       allowedOrigins: [
