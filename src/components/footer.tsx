@@ -73,10 +73,8 @@ const friendshipLinks: { label: string; href: string }[] = [
 // ============================================
 const internalPaths = {
   aboutProject: 'docs/guide/wiki/basic-concepts/project-introduction',
-  contactUs: 'docs/support/community-interaction',
   features: 'docs/guide/wiki/basic-concepts/features-introduction',
-  installation: 'docs/installation',
-  userGuide: 'docs/guide/home',
+  userGuide: 'docs/guide/feature-guide/user/auth',
   apiDocs: 'docs/api',
 } as const;
 
@@ -88,12 +86,10 @@ interface FooterTranslation {
     about: {
       title: string;
       aboutProject: string;
-      contactUs: string;
       features: string;
     };
     docs: {
       title: string;
-      installation: string;
       userGuide: string;
       apiDocs: string;
     };
@@ -109,13 +105,11 @@ const translations: Record<string, FooterTranslation> = {
       about: {
         title: '关于我们',
         aboutProject: '关于项目',
-        contactUs: '联系我们',
         features: '功能特性',
       },
       docs: {
         title: '文档',
-        installation: '安装部署',
-        userGuide: '使用指南',
+        userGuide: '用户指南',
         apiDocs: 'API 文档',
       },
       relatedProjects: '相关项目',
@@ -128,12 +122,10 @@ const translations: Record<string, FooterTranslation> = {
       about: {
         title: 'About Us',
         aboutProject: 'About Project',
-        contactUs: 'Contact Us',
         features: 'Features',
       },
       docs: {
         title: 'Docs',
-        installation: 'Installation',
         userGuide: 'User Guide',
         apiDocs: 'API Docs',
       },
@@ -147,12 +139,10 @@ const translations: Record<string, FooterTranslation> = {
       about: {
         title: '私たちについて',
         aboutProject: 'プロジェクトについて',
-        contactUs: 'お問い合わせ',
         features: '機能',
       },
       docs: {
         title: 'ドキュメント',
-        installation: 'インストール',
         userGuide: 'ユーザーガイド',
         apiDocs: 'APIドキュメント',
       },
@@ -175,17 +165,12 @@ function buildSections(t: FooterTranslation) {
           label: t.sections.about.aboutProject,
           href: internalPaths.aboutProject,
         },
-        { label: t.sections.about.contactUs, href: internalPaths.contactUs },
         { label: t.sections.about.features, href: internalPaths.features },
       ],
     },
     {
       title: t.sections.docs.title,
       links: [
-        {
-          label: t.sections.docs.installation,
-          href: internalPaths.installation,
-        },
         { label: t.sections.docs.userGuide, href: internalPaths.userGuide },
         { label: t.sections.docs.apiDocs, href: internalPaths.apiDocs },
       ],

@@ -133,7 +133,7 @@ export default async function Layout({
 }) {
   const { lang } = await params;
   const texts = getTexts(lang);
-  const docsUrl = getLocalePath(lang, 'docs');
+  const docsUrl = getLocalePath(lang, 'docs/guide/feature-guide/user/auth');
   const navItems = buildNavItems(lang, docsUrl);
 
   return (
@@ -163,7 +163,7 @@ export default async function Layout({
             type: 'main',
             on: 'menu',
             text: texts.apiDocs.text,
-            url: 'https://apifox.newapi.ai/',
+            url: 'https://app.apifox.com/',
             icon: <FileCode />,
             external: true,
           },
@@ -232,7 +232,7 @@ export default async function Layout({
             type: 'main',
             on: 'nav',
             text: texts.apiDocs.text,
-            url: 'https://apifox.newapi.ai/',
+            url: 'https://app.apifox.com/',
             external: true,
           },
           ...linkItems,

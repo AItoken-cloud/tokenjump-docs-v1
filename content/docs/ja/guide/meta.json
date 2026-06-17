@@ -4,17 +4,15 @@
   "icon": "BookOpen",
   "root": true,
   "pages": [
-    "---紹介---",
-    "../index",
-    "wiki/basic-concepts/project-introduction",
-    "wiki/basic-concepts/features-introduction",
-    "wiki/basic-concepts/technical-architecture",
-    "wiki/basic-concepts/analytics-setup",
-    "wiki/basic-concepts/performance-analysis",
-    "wiki/changelog",
-    "---機能ガイド---",
-    "feature-guide/index",
-    "feature-guide/user",
-    "feature-guide/admin"
+    "feature-guide/user/auth",
+    "feature-guide/user/personal-setting",
+    "feature-guide/user/token",
+    "feature-guide/user/api",
+    "feature-guide/user/chat-apps",
+    "feature-guide/user/pricing",
+    "feature-guide/user/log",
+    "feature-guide/user/topup",
+    "feature-guide/user/subscription",
+    "feature-guide/user/task"
   ]
 }

@@ -37,6 +37,7 @@ export function baseOptions(locale: string): BaseLayoutProps {
   return {
     i18n: true,
     nav: {
+      url: `/${locale}`,
       title: (
         <>
           {logo}
