@@ -66,5 +66,5 @@ const config = {
     ];
   },
 };
-
+console.log('🚀 Current Image Config:', JSON.stringify(config.images));
 export default withMDX(config);
