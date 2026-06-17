@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "prebuild": "tsx scripts/prebuild.ts",
-    "build": "next build",
+    "build": "next build && rsync -av --delete public/ .next/standalone/public/",
     "dev": "next dev -p 8000",
     "start": "next start -p 8000",
     "postinstall": "fumadocs-mdx",
