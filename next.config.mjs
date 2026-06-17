@@ -8,7 +8,7 @@ const config = {
   reactStrictMode: true,
   poweredByHeader: false,
   images: {
-    unoptimized: true,
+    // unoptimized: true,
     remotePatterns: [
       {
         protocol: 'http',
