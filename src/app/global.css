@@ -15,7 +15,7 @@
   --color-brand-200: hsl(330, 65%, 75%);
 
   /* Fumadocs UI theme color (for navigation, TOC, etc.) */
-  --color-fd-primary: hsl(330, 70%, 55%);
+  --color-fd-primary: #2c68ed;
   --color-fd-primary-foreground: white;
 
   --color-landing-foreground: #5c3a4a;
@@ -42,7 +42,7 @@
   --color-brand-200: hsl(330, 80%, 85%);
 
   /* Fumadocs UI theme color (for navigation, TOC, etc. - dark mode) */
-  --color-fd-primary: hsl(330, 85%, 70%);
+  --color-fd-primary: #2c68ed;;
   --color-fd-primary-foreground: black;
 }
 

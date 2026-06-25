@@ -197,7 +197,7 @@ export function Footer({ lang }: FooterProps) {
     <footer className="border-fd-border bg-fd-card/30 mt-auto border-t backdrop-blur-sm">
       <div className="mx-auto max-w-[1400px] px-6 py-12">
         {/* Top: Links Grid */}
-        <div className="grid grid-cols-2 gap-x-8 gap-y-10 pb-10 md:grid-cols-3 lg:grid-cols-4 lg:gap-x-12">
+        {/* <div className="grid grid-cols-2 gap-x-8 gap-y-10 pb-10 md:grid-cols-3 lg:grid-cols-4 lg:gap-x-12">
           {sections.map((section) => (
             <div key={section.title}>
               <h3 className="text-fd-foreground mb-4 text-sm font-semibold">
@@ -228,10 +228,11 @@ export function Footer({ lang }: FooterProps) {
               </ul>
             </div>
           ))}
-        </div>
+        </div> */}
 
         {/* Bottom: Copyright and Social */}
-        <div className="border-fd-border flex flex-col items-start justify-between gap-4 border-t pt-8 sm:flex-row sm:items-center">
+        {/* border-t pt-8 */}
+        <div className="border-fd-border flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
           {/* Left: Copyright and Beian */}
           <div className="text-fd-muted-foreground flex flex-col gap-2 text-xs">
             <p>{t.copyright}</p>
